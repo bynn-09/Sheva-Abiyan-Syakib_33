@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
+    
+}
+.navbar {
+    width: 100dvw;
+    background-color: #003161;
+    height: 80px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    height: 5rem;
+}
+.lgo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h1 {
+    font-weight: 800;
+    color: white;
+}
+span {
+    color: #FDDE55;
+}
+ul {
+    display: flex;
+    gap: 10rem;
+    list-style: none;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: #FDDE55;
+    transition: 500ms ease;
+}
+ul li a:active {
+    color: #FDDE55;
+}
+button {
+    width: 117.75px;
+    height: 54px;
+    border-radius: 90px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    background-color: #FDDE55;
+}
+button:hover{
+    background-color: white;
+    color: #FDDE55;
+    transition: 500ms ease;
+}
+footer {
+    width: 100dvw;
+    background-color: #003161;
+    padding: 0 32px 24px 54px;
+    display: flex;
+    gap: 7rem;
+}
+.logo2{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.logo2 > img {
+    height: 150px;
+    float: left;
+}
+.logo2 > h1 , .logo2 > p{
+    width: 20rem;
+    display: flex;
+    gap: 1px;
+
+}
+.nama-alamat {
+    display: grid;
+    gap: 5px;
+}
+.nama-alamat > p {
+    color: white;
+    font-size: 16px;
+}
+.menu-footer {
+    text-align: center;
+}
+.menu-footer > ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-top: 2em;
+}
+.menu-footer > ul li a {
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu-footer > h1 {
+    color: #FDDE55;
+}
+.kontak > h1 {
+    text-align: center;
+    color: #FDDE55;
+}
+.kontak-child{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2em;
+    gap: 15px;
+    color: white;
+}
+.wrap-child , .wrap-child2 {
+    width: 11rem;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}

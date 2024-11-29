@@ -1,0 +1,39 @@
+.galeri {
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.6)) , url(imgUKK/perpustakaan1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:  12px 40px;
+    
+    height: 100dvh;
+    width: 100dvw;
+    font-size: 63px;
+    /* color: #FDDE55 */
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0;
+    
+    justify-content: center;
+    align-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+
+.galeri > h1 {
+    color: #FDDE55 ;
+    text-align: center;
+    margin-top: 4rem;
+}
+.images >img {
+    height: 200px;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    width: 90%;
+}
+img:hover {
+    scale: 0.8;
+    transition: 400ms ease;
+}
